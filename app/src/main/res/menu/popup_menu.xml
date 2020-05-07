@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profil"
+        android:title="Accéder au profil"/>
+
+    <item android:id="@+id/statistiques"
+        android:title="Statistiques générales"/>
+
+    <item android:id="@+id/modifier"
+        android:title="Modifier les notes"/>
+
+
+</menu>

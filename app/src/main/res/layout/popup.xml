@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:background="@drawable/designe"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/exit"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="X"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/profill"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_account_circle_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/stat"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_call_missed_outgoing_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/moy"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_format_line_spacing_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_delete_black_24dp"/>
+
+        </LinearLayout>
+     </LinearLayout>
+
+
+</LinearLayout>

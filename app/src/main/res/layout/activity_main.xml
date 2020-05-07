@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/text_de_rechrech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Rechercher..."/>
+        <ImageView
+            android:id="@+id/rechrr_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search_black_24dp"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/student_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fastScrollAlwaysVisible="true"
+        android:layout_marginTop="30dp" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/fab"
+        android:layout_width="117dp"
+        android:layout_height="112dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ajouter"
+        app:civ_border_color="#F57F17"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+
+        app:civ_shadow_color="#F57F17" />
+
+</RelativeLayout>

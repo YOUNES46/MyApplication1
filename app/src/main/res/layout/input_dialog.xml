@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+        <EditText
+            android:background="@drawable/bord"
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+                   android:gravity="center"
+            android:hint="Nom"
+            android:textColor="#3f51b5"
+            android:textColorHint="#3f51b5"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            app:fontFamily="@font/aclonica"/>
+    <EditText
+        android:background="@drawable/bord"
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:textColor="#3f51b5"
+        android:textColorHint="#3f51b5"
+        android:layout_height="40dp"
+        app:fontFamily="@font/aclonica"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bord"
+        android:id="@+id/wilayaEditText"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Wilaya"
+        android:textColor="#3f51b5"
+        android:textColorHint="#3f51b5"
+        android:layout_height="40dp"
+        app:fontFamily="@font/aclonica"/>
+
+
+
+
+
+</LinearLayout>

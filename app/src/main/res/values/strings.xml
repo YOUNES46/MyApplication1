@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="item_default_name">Nom de l\'étudiant</string>
+    <string name="val_test1">0</string>
+    <string name="val_test2">0</string>
+    <string name="absence">0</string>
+    <string name="val_absence">0</string>
+    <string name="val_retard">0</string>
+    <string name="val_assiduite">0</string>
+    <string name="val_t1">T1</string>
+    <string name="val_t2">T2</string>
+    <string name="val_A">A</string>
+    <string name="val_As">As</string>
+</resources>
