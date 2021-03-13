@@ -3,11 +3,13 @@ package com.example.myapplication;
 import android.os.Bundle;
 import android.widget.TextView;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ProfilActivity extends AppCompatActivity {
  String name_student,email_student,wilaya_student;
  TextView name,email,wilaya;
+TextView emaull;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
